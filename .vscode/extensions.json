@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "firefox-devtools.vscode-firefox-debug",
+        "necinc.elmmet",
+        "oderwat.indent-rainbow",
+        "glenn2223.live-sass",
+        "ritwickdey.liveserver",
+        "ms-ceintl.vscode-language-pack-es",
+        "esbenp.prettier-vscode",
+        "peakchen90.open-html-in-browser"
+    ]
+}
