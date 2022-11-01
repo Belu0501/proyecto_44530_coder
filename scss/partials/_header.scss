@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    font-size: 0;
+
+.nav__list{
+        display: flex;
+        list-style-type: none;
+
+    li{
+        display: inline-block;
+        width: 25%;
+        position: relative;
+        font-size: 14px;
+    
+        a{
+        color: #00B3FF;
+        font-weight: bold;
+        transition: background 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            &:hover{
+            background-color: lightsteelblue;
+            }
+        }
+    }
+}
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

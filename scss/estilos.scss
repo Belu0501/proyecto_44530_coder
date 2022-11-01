@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Edu TAS Beginner', cursive;
+    src: url(../assets/fonts/EduTASBeginner-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url(../assets/fonts/RobotoCondensed-Regular.ttf);
+}
+/*PAGES Y PARTIALS*/
+@import "./pages/adultos";
+
+@import "./pages/bebe";
+
+@import "./pages/contacto";
+
+@import "./pages/index";
+
+@import "./pages/mama";
+
+@import "./partials/footer";
+
+@import "./partials/header";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    color: #84D3EC;
+    letter-spacing: 2px;
+    text-align: center;
+    background: #555E61;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.boton{
+    padding: 12px 25px;
+    background-color: #000;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.tarjeta__imagen{
+    width: 20rem;
+    height: 20rem;
+}
+
+
