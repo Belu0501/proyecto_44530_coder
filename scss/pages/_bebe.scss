@@ -8,7 +8,7 @@
 .articulos-bebe{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);}
 
     .huggies-classic{
         grid-column: 1/4;
@@ -29,54 +29,5 @@
         grid-column: 4/4;
         grid-row: 1;
     }
-}
 
-@media screen and (max-width: 992px) {
-    .articulos-bebe{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
 
-    .huggies-classic{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .huggies-protect{
-        grid-column: 2/2;
-        grid-row: 1/2;
-    }
-    .huggies-flex{
-        grid-column: 1/2;
-        grid-row: 2/2;
-    }
-    .huggies-supreme{
-        grid-column: 2/2;
-        grid-row: 2/2;
-    }
-}
-
-@media screen and (max-width: 576px){
-    .articulos-bebe{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(4,1fr);
-    }
-
-    .huggies-classic{
-        grid-column: 1/1;
-        grid-row: 1/4;
-    }
-    .huggies-protect{
-        grid-column: 1/1;
-        grid-row: 2/4;
-    }
-    .huggies-flex{
-        grid-column: 1/1;
-        grid-row: 3/4;
-    }
-    .huggies-supreme{
-        grid-column: 1/1;
-        grid-row: 4/4;
-    }
-}

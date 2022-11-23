@@ -1,7 +1,7 @@
 .articulos-adultos{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);}
 
     .nonisec-anatomicos{
         grid-column: 1/4;
@@ -23,54 +23,5 @@
         grid-row: 1;
     }
     
-}
 
-@media screen and (max-width: 992px) {
-    .articulos-adultos{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
 
-    .nonisec-anatomicos{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .comodin-anatomicos{
-        grid-column: 2/2;
-        grid-row: 1/2;
-    }
-    .plenitud-classic-anatomicos{
-        grid-column: 1/2;
-        grid-row: 2/2;
-    }
-    .nonino-anatomicos{
-        grid-column: 2/2;
-        grid-row: 2/2;
-    }
-}
-
-@media screen and (max-width: 576px){
-    .articulos-adultos{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(4,1fr);
-    }
-
-    .nonisec-anatomicos{
-        grid-column: 1/1;
-        grid-row: 1/4;
-    }
-    .comodin-anatomicos{
-        grid-column: 1/1;
-        grid-row: 2/4;
-    }
-    .plenitud-classic-anatomicos{
-        grid-column: 1/1;
-        grid-row: 3/4;
-    }
-    .nonino-anatomicos{
-        grid-column: 1/1;
-        grid-row: 4/4;
-    }
-}

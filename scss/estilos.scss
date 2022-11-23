@@ -6,20 +6,6 @@
     font-family: 'Roboto Condensed', sans-serif;
     src: url(../assets/fonts/RobotoCondensed-Regular.ttf);
 }
-/*PAGES Y PARTIALS*/
-@import "./pages/adultos";
-
-@import "./pages/bebe";
-
-@import "./pages/contacto";
-
-@import "./pages/index";
-
-@import "./pages/mama";
-
-@import "./partials/footer";
-
-@import "./partials/header";
 
 *{
     margin: 0;
@@ -35,8 +21,8 @@ h1{
     letter-spacing: 2px;
     text-align: center;
     background: #555E61;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 20%;
+    margin-right: 20%;
     border: solid black;
     border-radius: 5px;
 }
@@ -54,4 +40,21 @@ h1{
     height: 20rem;
 }
 
+
+/*PAGES Y PARTIALS*/
+@import "./pages/adultos";
+
+@import "./pages/bebe";
+
+@import "./pages/contacto";
+
+@import "./pages/index";
+
+@import "./pages/mama";
+
+@import "./partials/footer";
+
+@import "./partials/header";
+
+@import './partials/mediaqueries'
 
